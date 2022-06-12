@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+nav ul li,
+a {
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Section Styling */
+
+
+/* Background Image */
+
+.bg-image {
+    width: 100vw;
+    /* position: relative; */
+}
+
+.bg-image img {
+    width: 100%;
+}
+
+#desktop {
+    display: block;
+}
+
+#mobile {
+    display: none;
+}
+
+
+/* Button Styling */
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    padding: 12.5px 50px;
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 3.5px;
+    box-shadow: 0 0 5px hsl(224, 96%, 70%);
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(224, 90%, 74%);
+}
+
+input {
+    padding: 10px 150px 10px 20px;
+}
+
+
+/* NavBar Styling */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5%;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 5px 15px;
+}
+
+
+/* Hero Section Styling*/
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 3.5%;
+}
+
+.left {
+    width: 50%;
+    padding: 0 1.5%;
+}
+
+.left h1 {
+    font-size: 40px;
+}
+
+.left p {
+    width: 400px;
+    font-size: 12.5px;
+    color: hsl(243, 87%, 12%);
+}
+
+.hero-p {
+    margin: 20px 0;
+}
+
+.right {
+    width: 50%;
+}
+
+.right img {
+    width: 85%;
+    padding: 50px 0px 50px 50px;
+    display: block;
+    margin: auto;
+}
+
+.right input {
+    display: block;
+    margin: 20px 0;
+    width: 70%;
+}
+
+
+/* Productivity Section Styling */
+
+.productivity {
+    display: flex;
+    flex-direction: row;
+    padding: 3.5%;
+    z-index: 2;
+    background-color: #f8f8fe;
+}
+
+.description h2 {
+    font-size: 30px;
+    color: hsl(243, 87%, 12%);
+}
+
+.description p {
+    margin: 20px 0;
+    font-size: 12px;
+    width: 400px;
+}
+
+.description a {
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+}
+
+.description a:hover {
+    color: hsl(170, 35%, 58%);
+}
+
+#aqua {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    width: 160px;
+}
+
+#aqua a {
+    font-size: 15px;
+}
+
+#aqua img {
+    width: 20px;
+    padding: 0 0 0 5px;
+}
+
+
+/* Testimonial Section Styling */
+
+.testimonial {
+    /* border: 2px dashed red; */
+    width: 300px;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px lightgray;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+.testimonial p {
+    font-size: 13px;
+    padding: 0px 5px;
+    width: auto;
+}
+
+.quote-img img {
+    width: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile h6 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.profile span {
+    font-size: 10px;
+}
+
+.profile-pic {
+    width: 65px;
+    padding: 10px;
+}
+
+.profile-pic img {
+    width: 90%;
+    border-radius: 50%;
+}
+
+
+/* Early Access Section */
+
+.early-access {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(238, 22%, 44%);
+    padding: 3.5%;
+}
+
+.early-access h3 {
+    color: hsl(240, 75%, 98%);
+    font-size: 25px;
+}
+
+.early-access h4 {
+    color: hsl(240, 75%, 98%);
+    font-weight: 400;
+    font-size: 13px;
+    width: 400px;
+}
+
+
+/* Footer Styling */
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: hsl(240, 75%, 98%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer ul li {
+    margin: 10px 30px;
+}
+
+footer ul li:hover {
+    color: hsl(224, 90%, 74%);
+}
+
+li {
+    cursor: pointer;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact h5 {
+    margin: 10px 25px;
+}
+
+.soc {
+    border: 1px solid hsl(240, 75%, 98%);
+    border-radius: 50%;
+    padding: 7.5px;
+    margin: 10px;
+}
+
+.soc:hover {
+    color: hsl(224, 90%, 74%);
+    border-color: hsl(224, 90%, 74%);
+    cursor: pointer;
+}
+
+
+/* Media Queries for responsive Web Design  */
+
+
+/* For Small Laptops & Tablets */
+
+@media (min-width:430px) and (max-width:999px) {
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+    .productivity {
+        flex-direction: column-reverse;
+    }
+    .early-access {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .left {
+        width: 95%;
+        text-align: center;
+    }
+    .left p {
+        width: 90%;
+        font-size: 16px;
+        margin: auto;
+    }
+    input {
+        width: 95%;
+        margin: 10px auto;
+    }
+    .right {
+        width: 95%;
+    }
+    .right img {
+        width: 95%;
+        padding: 0;
+    }
+    input[type="email"] {
+        padding: 12px 10px;
+    }
+    .right input {
+        margin: 20px auto;
+        width: 90%;
+    }
+    p {
+        width: auto;
+    }
+    .early-access h4 {
+        width: auto;
+    }
+    #aqua {
+        margin: 20px auto;
+    }
+    .testimonial {
+        margin: 20px auto;
+        text-align: left;
+        width: auto;
+    }
+    footer {
+        text-align: left;
+        align-items: flex-start;
+    }
+    footer ul {
+        display: block;
+        padding: 0;
+    }
+    footer ul li {
+        margin: 10px 5px;
+    }
+    .socials {
+        align-self: center;
+    }
+}
+
+
+/* For Mobile Phones */
+
+@media (max-width:430px) {
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: block;
+    }
+    .fylo-logo-nav img {
+        width: 90px;
+    }
+    .navbar ul li {
+        margin: 5px;
+    }
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+    .productivity {
+        flex-direction: column-reverse;
+    }
+    .early-access {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .left {
+        width: 95%;
+        text-align: center;
+    }
+    .left h1 {
+        font-size: 24px;
+    }
+    .left p {
+        width: 300px;
+        font-size: 14px;
+        margin: auto;
+    }
+    input {
+        width: 95%;
+        margin: 10px auto;
+    }
+    .right {
+        width: 95%;
+    }
+    .right img {
+        width: 95%;
+        padding: 0;
+    }
+    input[type="email"] {
+        padding: 12px 10px;
+    }
+    .right input {
+        margin: 20px auto;
+        width: 90%;
+    }
+    p {
+        width: auto;
+    }
+    .early-access h4 {
+        width: auto;
+    }
+    #aqua {
+        margin: 20px auto;
+    }
+    .testimonial {
+        margin: 20px auto;
+        text-align: left;
+        width: auto;
+    }
+    footer {
+        text-align: left;
+        align-items: flex-start;
+    }
+    footer ul {
+        display: block;
+        padding: 0;
+    }
+    footer ul li {
+        margin: 10px 5px;
+    }
+    .socials {
+        align-self: center;
+    }
+}
